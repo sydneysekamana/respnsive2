@@ -1,0 +1,92 @@
+h1, h2, p, body {
+    margin: 0;
+}
+ 
+
+
+
+body {
+    background-color: yellow;
+    text-align: center;
+  }
+
+  h1 { 
+    font-size: 2em; 
+    color: black;
+    background-color: red;
+  }
+  h2 {
+    font-size: 1.5em; 
+    color: red;
+    background-color: yellow;
+  }
+  p {
+    font-size: 1em;
+     color: yellow;
+     background-color: black;
+}
+@media (min-width: 850px) {
+    body {
+        background-color: red;
+    }
+
+
+   h1 {
+        font-size: 3em; 
+        color: yellow;
+        background-color: black;
+    }
+    h2 {
+        font-size: 2.5em; 
+        color: black;
+        background-color: red;
+    }
+    p {
+        font-size: 1.5em; 
+        color: red;
+        background-color: yellow;
+    }
+    }
+    
+    @media (min-width: 1150px)  {
+        body {
+            background-color: black;
+        }
+      
+        h1 {
+          font-size: 4em; 
+          color: red;
+          background-color: yellow;
+        }
+        h2 {
+          font-size: 3em; 
+          color: yellow;
+          background-color: black;
+        }
+        p {
+          font-size: 2em; 
+          color: black;
+          background-color: red;
+        }
+      } 
+
+      @media (min-width: 1450px) {
+        body {
+            background-color: yellow;
+        }
+       h1 { 
+        font-size: 6em; 
+        color: black;
+        background-color: red;
+      }
+      h2 {
+        font-size: 4.5em; 
+        color: red;
+        background-color: yellow;
+      }
+      p {
+        font-size: 3.5em; 
+        color: yellow;
+        background-color: black;
+    }
+}
